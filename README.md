@@ -1,3 +1,3 @@
 # SirTimBernersLeeWebsite
 This website is about Sir Tim Berners Lee.
-View website at https://github.com/astronautayaan/SirTimBernersLeeWebsite
+There is some basic information listed in the website.
