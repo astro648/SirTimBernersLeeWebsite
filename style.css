@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 100;
 }
 
 .picture {
@@ -57,31 +57,39 @@ p {
 .menu {
     list-style: none;
     font-family: cursive;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
+    background: white;
+    width: 100%;
     z-index: 10;
     cursor: pointer;
+    margin-top: 0%;
 }
 
 .links {
     float: left;
     color: #fff;
     padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
+    margin-left: 40px;
+    display: inline;
 }
 
 .links:hover {
     background-color: lightyellow;
-
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 a {
     text-decoration: none;
+    color: blue;
+    text-shadow: 2px 2px lightgray;
 }
 
 .article:hover {
@@ -101,4 +109,14 @@ html {
 
 h1{
     text-align: center;
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact{
+    background-color: aliceblue;
 }
